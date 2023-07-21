@@ -19,7 +19,7 @@ void main()
     for(int i=n-1;i>=0;i--)        //if n=5; then i should start from 4(n-1) and j should start from 3(n-2-d)
     {                             //d is taken because for(i=2) then j should start from 1
         for(int j=n-2-d;j>=0;j--) // so if d not taken,every time j starts from 3(n-2) only
-        {
+        {                          //
             k=a[i]-a[j];
             if(k>h)
             {
